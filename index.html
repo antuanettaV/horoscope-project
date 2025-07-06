@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Horoscope Generator</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="image-container">
+            <img src="picture.jpg" alt="horoscope" />
+            </div>
+          <h1>AI Horoscope-Generator</h1>
+        </header>
+</body>
+<main>
+    <div class="form-container">
+    <form id="horoscope-generator-form">
+       <input
+        type="text"
+        placeholder="Please indicate for which zodiac sign you would like to read the horoscope"
+        autofocus
+        required
+        autocomplete="off"
+        class="instructions"
+        id = "user-instructions"
+      />
+      <input type="submit" class="submit-button" />
+    </form>
+    </div>
+    <div class="horoscope hidden" id="horoscope"></div>
+  </main>
+  <footer>
+    This AI project was coded by
+    <a href="" target="_blank">Hanna</a> and
+    is
+    <a href="" target="_blank"
+      >open-sourced on GitHub</a
+    >
+    and is hosted on
+    <a href="" target="_blank">
+      Netlify</a
+    >
+  </footer>
+</div>
+</html>
